@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .logo1{
-    width: 500px;position:absolute;left: 34%;
+    width: 500px;
 }
 @media (max-width: 992px) {
   .get-started-btn {
@@ -139,8 +139,6 @@ margin-right: 0;
   }
  .logo1{
     width: 400px;
-    position:absolute;
-    left: 23%;
  }
 
   
@@ -200,7 +198,7 @@ color:black;
 .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #e86105;
 }
-.navbar .E-Conclave:hover{
+.header .E-Conclave:hover{
   border: 2px solid #e86105;
   color:#e86105;
   background: white;
@@ -2448,6 +2446,21 @@ transform: scale(1.2);
   width: 100%;
   transform: translate(-50%, -50%);
 }
+.member-img{
+  background-color: #000000;
+  height: 376px;
+  width: 376px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.member-img img{
+  position: absolute;
+  height: 376px;
+  width: 376px;
+  margin: auto;
+}
 
 .btn {
   padding: 10px;
@@ -3093,3 +3106,283 @@ transform: scale(1.2);
 .cursor {
   cursor: pointer;
 }
+
+
+
+.menu{
+  width: 98%;
+  text-align: center;
+  margin-bottom: 30px;
+  margin:0 15px;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  
+}
+.menu .header{
+  list-style: none;
+  display: inline-flex;
+  float: right;
+}
+.header li{
+  width: 90px;
+  margin: 0;
+  padding: 10px 0;
+  margin-top: 20px;
+
+}
+.header{
+  position: relative;
+  right: 15%;
+}
+.header li a{
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.header li a:hover{
+  background-color: transparent;
+  color:#e86105;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+.show-btn{
+  font-size: 30px;
+  color:black;
+  line-height: 70px;
+  display: none;
+}
+.hide-btn{
+  font-size: 30px;
+  color:white;
+  line-height: 70px;
+  display: none;
+}
+.show-btn{
+  float: right;
+}
+
+#chk{
+  position: absolute;
+visibility: hidden;
+z-index: -10px;
+
+}
+.header .E-Conclave{
+  margin-top: 20px;
+  padding-top: 10px;
+
+}
+.cards{
+  width: 3000px;
+}
+.SC{
+  position: relative;top: 87%;right: 4%;
+}
+.carousel-content{
+  margin-bottom:90px;z-index: 1;
+}
+
+@media (max-width:992px){
+  .show-btn,.hide-btn{
+     display: block; 
+     position: absolute;
+     right: 20px;
+     top: 0;
+  }
+  .header{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: black;
+      padding: 80px 0;
+      transition: .7s;
+      line-height: normal;
+
+  }
+  
+  .menu .header {
+      display: inline-block;
+  }
+  .header li{
+      width: 100%;
+  }
+  .header li a{
+      width: 100%;
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+  }
+  .header li:hover{
+      width: 100%;
+      background-color: transparent;
+      color:#e86105;
+      padding: 5px;
+      border-radius: 5px;
+  }
+  .header li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  
+  }
+ 
+
+
+
+
+
+
+
+  #chk:checked ~ .header{
+      right: 0;
+      color: white;
+  }
+  .socialImage,.socialMedia{
+    display: none;
+  }
+  .cards{
+    position: relative;
+    left: 34%;
+  }
+
+    .my-card {
+      height: 250px;
+      width: 200px;
+      background-image:url('https://tanyaagarwal28.github.io/Images/StudentCouncilDark-01.png');
+      background-size: 200px 250px;
+    }
+    .card-carousel .my-card:after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      border-radius: 100%;
+      background-color: rgb(0, 0, 0);
+      bottom: -5rem;
+      -webkit-filter: blur(4px);
+      filter: blur(4px);
+    }
+    
+    .card-carousel .my-card:nth-child(0):before {
+      content: '0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 400;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(1):before {
+      content: '1.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(2):before {
+      content: '2.0';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(3):before {
+      content: '3.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(4):before {
+      content: '4.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(5):before {
+      content: '5.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(6):before {
+      content: '6.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(7):before {
+      content: '7.0';
+      position: absolute;
+      top: 52%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+    }
+    .SC{
+      position: relative;top: 85%;left: 4%;
+    }
+    .d-none{
+      font-size: 10px;
+    }
+    .carousel-content{
+      font-size: 3px;
+      text-align: center;
+    }
+    
+
+}
+
+
+
+
+
+
