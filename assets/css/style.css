@@ -3391,7 +3391,7 @@ top: 100px;right: 0;left: 400px;
     .menu{
       position: absolute;
       right: 0;
-      top: 8px;
+      top: 6px;
     }
     .clients{
       padding-top: 20px;
@@ -3404,7 +3404,7 @@ top: 100px;right: 0;left: 400px;
       display: block;
     }
 }
-@media (min-width:992px){
+@media (min-width:1000px){
   .mediaquery{
     display: none;
   }
