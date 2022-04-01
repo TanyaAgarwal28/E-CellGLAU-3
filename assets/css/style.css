@@ -3377,8 +3377,20 @@ z-index: -10px;
       font-size: 3px;
       text-align: center;
     }
-    
+    .TeamsOption{
+      top: 100px;
+      left: 0;
+      padding: 10px;
+    }
+    .menu{
+      position: absolute;
+      right: 0;
+      top: 8px;
+    }
 
+}
+.TeamsOption{
+top: 100px;right: 0;left: 400px;
 }
 
 
