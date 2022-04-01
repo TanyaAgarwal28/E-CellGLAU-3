@@ -3406,11 +3406,19 @@ top: 100px;right: 0;left: 400px;
     .aboutUsSectionTitle{
       padding-top: 60px;
     }
+    .AboutUsContent{
+      font-size: 50px;
+    }
 }
 @media (min-width:1000px){
   .mediaquery{
     display: none;
   }
+}
+.AboutUsContent{
+  color: white;
+  font-size: 100px;
+  text-align: center;
 }
 
 
