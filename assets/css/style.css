@@ -3392,12 +3392,13 @@ top: 100px;right: 0;left: 400px;
       position: absolute;
       right: 0;
       top: 6px;
-      height: 200px;
-  max-height: 200px;
-  width: 100%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling:touch; 
 
+
+    }
+    .header{
+      width: 100%;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling:touch; 
     }
     .clients{
       padding-top: 20px;
