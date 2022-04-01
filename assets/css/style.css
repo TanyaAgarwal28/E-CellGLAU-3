@@ -3403,6 +3403,9 @@ top: 100px;right: 0;left: 400px;
     .mediaquery{
       display: block;
     }
+    .aboutUsSectionTitle{
+      padding-top: 45px;
+    }
 }
 @media (min-width:1000px){
   .mediaquery{
