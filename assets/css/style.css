@@ -3270,6 +3270,17 @@ top: 100px;right: 0;left: 400px;
   }
  
 
+  .hero-title{
+   font-size: 50px; 
+  }
+
+  .carousel-content p{
+    font-size: 12px;
+  }
+
+  .hero-gla{
+    font-size: 20px;
+  }
 
 
 
