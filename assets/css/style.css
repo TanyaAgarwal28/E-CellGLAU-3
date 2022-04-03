@@ -400,6 +400,8 @@ color:black;
   left: 0;
   right: 0;
 }
+
+
 .hero-title {
   margin: 0;
   font-size: 80px;
@@ -438,17 +440,34 @@ color:black;
   background: transparent;
 }
 @media (max-width: 768px) {
+  #hero .carousel-content{
+    text-align: center;
+    top: 25%;
+    left: 9%;
+   
+  }
+
+  .hero-title{
+    font-size: 38px; 
+   }
+ 
+   #hero .carousel-content p{
+     font-size: 14px;
+   }
+ 
+   .hero-gla{
+     font-size: 23px;
+   }
+ 
+
   #hero {
     text-align: center;
     padding-top: 58px;
   }
-  #hero h1 {
+  /* #hero h1 {
     font-size: 28px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
+  } */
+  
 }
 @media (max-height: 500px) {
   #hero {
@@ -3268,20 +3287,6 @@ top: 100px;right: 0;left: 400px;
     font-size: 25px;
   
   }
- 
-
-  .hero-title{
-   font-size: 50px; 
-  }
-
-  .carousel-content p{
-    font-size: 12px;
-  }
-
-  .hero-gla{
-    font-size: 20px;
-  }
-
 
 
 
