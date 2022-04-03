@@ -359,13 +359,28 @@ color:black;
 # Hero Section
 --------------------------------------------------------------*/
 
-.hero-title{
+/* .hero-title{
   font-size: 80px;
-}
+} */
 
 .hero-e{
   color: #e86105;
   display: inline;
+}
+
+.hero-cell{
+  color: #e86105;
+}
+
+#hero .carousel-content p {
+  font-size: 25px;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.hero-gla{
+  font-size: 45px;
+  font-weight: 700;
 }
 
 #hero {
@@ -385,9 +400,9 @@ color:black;
   left: 0;
   right: 0;
 }
-#hero h1 {
+.hero-title {
   margin: 0;
-  font-size: 48px;
+  font-size: 80px;
   font-weight: 700;
   color: #fff;
 }
