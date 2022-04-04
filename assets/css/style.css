@@ -3333,14 +3333,20 @@ top: 100px;right: 0;left: 400px;
   }
   .cards{
     position: relative;
-    left: 34%;
+    left: 65%;
   }
 
     .my-card {
-      height: 250px;
-      width: 200px;
+      height: 200px;
+      width: 150px;
       background-image:url('https://tanyaagarwal28.github.io/Images/StudentCouncilDark-01.png');
-      background-size: 200px 250px;
+      background-size: 150px 200px;
+    }
+    .scButtonText{
+      position: relative;
+      bottom: 30%;
+      right: 30%;
+      font-size: 12px;
     }
     .card-carousel .my-card:after {
       content: '';
@@ -3450,7 +3456,11 @@ top: 100px;right: 0;left: 400px;
       color: #fff;
     }
     .SC{
-      position: relative;top: 85%;left: 4%;
+      height: 13%;
+      width: 50%;
+      position: relative;
+      top: 85%;
+      left: 6%;
     }
     .d-none{
       font-size: 10px;
@@ -3500,6 +3510,9 @@ top: 100px;right: 0;left: 400px;
 @media (min-width:1000px){
   .mediaquery{
     display: none;
+  }
+  .scButtonText{
+    text-align: center;
   }
 }
 .AboutUsContent{
