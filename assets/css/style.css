@@ -440,7 +440,7 @@ color:black;
   background: transparent;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 998px) {
   #hero .carousel-content{
     text-align: center;
     top: 10%;
