@@ -476,6 +476,7 @@ color:black;
   .cards{
     position: relative;
     left: 60%;
+    right: 10%;
   }
 
     .my-card {
