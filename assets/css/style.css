@@ -475,14 +475,14 @@ color:black;
 
   .cards{
     position: relative;
-    left: 70%;
+    left: 75%;
   }
 
     .my-card {
-      height: 200px;
-      width: 150px;
+      height: 170px;
+      width: 130px;
       background-image:url('https://tanyaagarwal28.github.io/Images/StudentCouncilDark-01.png');
-      background-size: 150px 200px;
+      background-size: 130px 170px;
     }
 
 
