@@ -3361,6 +3361,24 @@ top: 100px;right: 0;left: 400px;
       height: 200px;
       width: 150px;
       background-size: 150px 200px;
+      position: relative;
+      z-index: 1;
+      -webkit-transform: scale(0.6) translateY(-2rem);
+      transform: scale(0.6) translateY(-2rem);
+      opacity: 0;
+      cursor: pointer;
+      pointer-events: none;
+      /* background: #2e5266;
+      background: linear-gradient(to top, #2e5266, #6e8898); */
+      transition: 1s;
+    
+    
+    
+         /*padding: 20px; */  
+      text-align: center;
+      border-radius: 8px;
+      overflow: hidden;
+      background-image:url('https://tanyaagarwal28.github.io/Images/StudentCouncilDark-01.png');
     }
     .scButtonText{
       position: relative;
