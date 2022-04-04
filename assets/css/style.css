@@ -472,6 +472,26 @@ color:black;
 }
 
 @media (max-width: 768px) {
+
+  .cards{
+    position: relative;
+    left: 70%;
+  }
+
+    .my-card {
+      height: 200px;
+      width: 150px;
+      background-image:url('https://tanyaagarwal28.github.io/Images/StudentCouncilDark-01.png');
+      background-size: 150px 200px;
+    }
+
+
+
+
+
+
+
+
   #hero .carousel-content{
     text-align: center;
     top: 25%;
