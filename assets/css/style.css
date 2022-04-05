@@ -465,6 +465,8 @@ color:black;
   #hero {
     text-align: center;
     padding-top: 58px;
+    height: 60vh;
+    padding-bottom: 55vh;
   }
   /* #hero h1 {
     font-size: 28px;
