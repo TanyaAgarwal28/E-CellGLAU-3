@@ -3353,8 +3353,9 @@ top: 100px;right: 0;left: 400px;
     display: none;
   }
   .cards{
-    position: relative;
-    left: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
     .my-card {
