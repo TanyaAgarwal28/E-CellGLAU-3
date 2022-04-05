@@ -465,7 +465,7 @@ color:black;
   #hero {
     text-align: center;
     padding-top: 58px;
-    height: 40vh;
+    height: 55vh;
   }
   /* #hero h1 {
     font-size: 28px;
@@ -497,7 +497,7 @@ color:black;
 
   #hero .carousel-content{
     text-align: center;
-    top: 17%;
+    top: 50%;
     left: 9%;
     bottom: 48%;
    
