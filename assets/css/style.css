@@ -443,8 +443,9 @@ color:black;
 @media (max-width: 998px) {
   #hero .carousel-content{
     text-align: center;
-    top: 6%;
+    top: 0%;
     left: 9%;
+    bottom: 25%;
    
   }
 
