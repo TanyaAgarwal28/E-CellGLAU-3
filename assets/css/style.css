@@ -499,17 +499,13 @@ color:black;
 
 
 
-  /* #hero .carousel-content{
+ #hero .carousel-content{
     position: relative;
     text-align: center;
     top: 50%;
     left: 9%;
     bottom: 48%;
    
-  }*/
-  #hero{
-    justify-content: center;
-    align-items: center;
   }
 
   .hero-title{
