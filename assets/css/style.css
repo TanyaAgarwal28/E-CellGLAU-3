@@ -506,6 +506,10 @@ color:black;
     bottom: 48%;
    
   }*/
+  .carousel-content{
+    justify-content: center;
+    align-items: center;
+  }
 
   .hero-title{
     font-size: 30px; 
