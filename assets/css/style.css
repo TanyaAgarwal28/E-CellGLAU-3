@@ -470,6 +470,10 @@ color:black;
   /* #hero h1 {
     font-size: 28px;
   } */
+  .carousel-content{
+    justify-content: center;
+    align-items: center;
+  }
   
 }
 
