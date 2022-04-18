@@ -499,13 +499,13 @@ color:black;
 
 
 
-  /*#hero .carousel-content{
+  #hero .carousel-content{
     text-align: center;
-    top: 50%;
+    top: 30%;
     left: 9%;
     bottom: 48%;
    
-  }*/
+  }
   .carousel-content{
     justify-content: center;
     align-items: center;
