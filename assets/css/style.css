@@ -499,14 +499,15 @@ color:black;
 
 
 
-  #hero .carousel-content{
+  /* #hero .carousel-content{
+    position: relative;
     text-align: center;
-    top: 40%;
+    top: 50%;
     left: 9%;
-    bottom: 50%;
+    bottom: 48%;
    
-  }
-  .carousel-content{
+  }*/
+  #hero{
     justify-content: center;
     align-items: center;
   }
